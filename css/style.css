@@ -1,0 +1,93 @@
+/* common css start */
+.common-button a{
+    background: #4CAF4F;
+    padding: 14px 32px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    transition: .5s;
+    border: 1px solid transparent;
+    display: inline-block;
+
+}
+.common-button a:hover{
+    background: transparent;
+    color: #4CAF4F;
+    border-color: #4CAF4F;
+
+
+}
+/* common css end */
+
+/* Navber part start */
+.navber-button a{
+    background: #4CAF4F;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    transition: .5s;
+    border: 1px solid transparent;
+    margin-left: 10px;
+    display: inline-block;
+
+}
+.navber-button a:hover{
+    background: transparent;
+    color: #4CAF4F;
+    border-color: #4CAF4F;
+
+
+}
+
+nav{
+    background: #F5F7FA;
+    padding: 22px 0px !important;
+}
+.navbar-nav{
+    column-gap: 50px;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: 400;
+    color: #18191F;
+    font-family: "Inter", sans-serif;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    transition: .5s;
+}
+.nav-link:hover{
+    color: #000;
+
+}
+/* Navber part end */
+/* Babber part Star */
+.banner {
+    background: #F5F7FA;
+    padding: 161px 0px;
+}
+
+.banner h1{
+    font-size: 64px;
+    color: #4D4D4D;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+}
+.banner h1 span{
+    color: #4CAF4F;
+}
+.banner p{
+    font-size: 16px;
+    color: #717171;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+/* Babber part end */
