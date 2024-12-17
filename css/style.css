@@ -20,6 +20,28 @@
 
 
 }
+
+.title {
+    text-align: center;
+}
+
+.title h2{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #4D4D4D;
+}
+.title p{
+    font-size:16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #4D4D4D;
+    padding-bottom: 8px;
+}
+.box{
+    display: flex;
+   
+}
 /* common css end */
 
 /* Navber part start */
@@ -91,3 +113,13 @@ nav{
     padding-bottom: 32px;
 }
 /* Babber part end */
+/* Client part start */
+
+.client{
+    padding: 40px 0px;
+}
+.client .box{
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+/* Client part end */
