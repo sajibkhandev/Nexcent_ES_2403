@@ -192,3 +192,56 @@ margin-top: 17px;
 
 }
 /* serive part end */
+/* deteils part start */
+
+.deteils{
+    padding: 84px 0px;
+    margin: 48px 0px;
+    background: #F5F7FA;
+}
+.deteils .title{
+    text-align: left;
+}
+.deteils .title h2{
+   width: 390px;
+   padding-bottom: 8px;
+}
+.deteils .title h2 span{
+    color: #4CAF4F;
+}
+.deteils .box{
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 40px;
+}
+.deteils .payment-box{
+    width: 47%;
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+   
+}
+.deteils .payment-box .icon{
+    color: #4CAF4F;
+    background: red;
+   font-size: 48px;
+   
+}
+.deteils .payment-box h4{
+    font-size: 28px;
+    font-weight: 700;
+    color: #4D4D4D;
+    font-family: "Inter", sans-serif;
+    
+   
+}
+.deteils .payment-box p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #717171;
+    font-family: "Inter", sans-serif;
+    
+   
+}
+
+/* deteils part end */
