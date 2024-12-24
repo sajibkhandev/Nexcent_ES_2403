@@ -1,47 +1,436 @@
 @media (min-width:320px) and (max-width:575.99px){
+   .navbar-brand img{
+      width: 70%;
+   }
 
     /* Nvber start */
     .navbar-collapse{
-        background: purple;
-        border-radius: 10px;
-        padding: 20px 0px;
-        margin: 30px 0px;
-    }
-    .nav-item{
-        display: flex;
-        justify-content: center;
-        padding: 6px 0px;
-    }
-    .nav-link{
-        color: white;
-        font-size: 14px;
-    }
-    .nav-link:hover{
-        color: white;
-    }
-    .navber-button{
-        text-align: center;
-    }
-    /* Nvber end */
-    /* banner start */
-    .banner {
-       
-        padding: 101px 0px;
-    }
-    .banner h1 {
-        font-size: 30px;
-        
-    }
-    .banner p {
-        font-size: 14px;
-        
-    }
-    .common-button a {
-        padding: 10px 18px;
-        
-    }
-    /* banner end */
-    
+      background: purple;
+      border-radius: 10px;
+      padding: 20px 0px;
+      margin: 30px 0px;
+  }
+  .nav-item{
+      display: flex;
+      justify-content: center;
+      padding: 6px 0px;
+  }
+  .nav-link{
+      color: white;
+      font-size: 14px;
+  }
+  .nav-link:hover{
+      color: white;
+  }
+  .navber-button{
+      text-align: center;
+  }
+  /* Nvber end */
+  /* banner start */
+  .banner {
      
+      padding: 101px 0px;
+  }
+  .banner h1 {
+      font-size: 36px;
+      
+  }
+  .banner p {
+      font-size: 14px;
+      
+  }
+  .common-button a {
+      padding: 10px 18px;
+      
+  }
+  .bannerImage{
+   padding-top: 60px;
+   display: flex;
+   justify-content: center;
+  }
+  .bannerImage img{
+  width: 70%;
+  }
+  /* banner end */
+
+
+
+
+
+
+  /* clien start */
+  .client{
+   padding-top: 40px;
+  }
+  .title h2 {
+	font-size: 32px;
+}
+  .title p {
+	padding: 0px 10px;
+}
+.client .box{
+   padding: 0;
+}
+
+.client .box img{
+   width: 90%;
+}
+  /* clien end */
+
+
+
+  /* comminity start */
+  .commountiy {
+	padding: 0;
+}
+
+.commountiy .title h2 {
+	width: auto;
+   margin: 0px 10px;
+   padding-bottom: 10px;
+}
+.commountiy .card .card-title {
+	font-size: 24px;
+
+}
+  /* comminity end */
+  /* service start */
+  .service-banner{
+   display: flex;
+   justify-content: center;
+  }
+  .service-banner img{
+   width: 80%;
+  }
+  .title h2 {
+	font-size: 24px;
+	padding-top: 52px;
+	text-align: center;
+}
+  /* service end */
+  /* deteils start */
+
+  .deteils .title h2 {
+	width: auto;
+	
+}
+.deteils .box {
+	
+	padding-top: 40px;
+}
+  /* deteils end */
+  
+  /* customer start */
+  .customer-banner{
+   display: flex;
+   justify-content: center;
+
+  }
+  .customer-banner img{
+   width: 80%;
+   
+  }
+  .customer p {
+	
+	
+	width: auto;
+}
+.customer .slider {
+	display: block;
+	
+}
+  
+  /* customer end */
+  
+    
+}
+@media (min-width:576px) and (max-width:767.99px){
+   .navbar-brand img{
+      width: 70%;
+   }
+
+    /* Nvber start */
+    .navbar-collapse{
+      background: purple;
+      border-radius: 10px;
+      padding: 20px 0px;
+      margin: 30px 0px;
+  }
+  .nav-item{
+      display: flex;
+      justify-content: center;
+      padding: 6px 0px;
+  }
+  .nav-link{
+      color: white;
+      font-size: 14px;
+  }
+  .nav-link:hover{
+      color: white;
+  }
+  .navber-button{
+      text-align: center;
+  }
+  /* Nvber end */
+  /* banner start */
+  .banner {
+     
+      padding: 101px 0px;
+  }
+  .banner h1 {
+	font-size: 40px;
+}
+  .banner p {
+      font-size: 14px;
+      
+  }
+  .common-button a {
+      padding: 10px 18px;
+      
+  }
+  .bannerImage{
+   padding-top: 60px;
+   display: flex;
+   justify-content: center;
+  }
+  .bannerImage img{
+  width: 70%;
+  }
+  /* banner end */
+
+
+
+
+
+
+  /* clien start */
+  .client{
+   padding-top: 40px;
+  }
+  .title h2 {
+	font-size: 32px;
+}
+  .title p {
+	padding: 0px 10px;
+}
+.client .box{
+   padding: 0;
+}
+
+.client .box img{
+   width: 90%;
+}
+  /* clien end */
+
+
+
+  /* comminity start */
+  .commountiy {
+	padding: 0;
+}
+
+.commountiy .title h2 {
+	width: auto;
+   margin: 0px 10px;
+   padding-bottom: 10px;
+}
+.commountiy .card .card-title {
+	font-size: 24px;
+
+}
+  /* comminity end */
+  /* service start */
+  .service-banner{
+   display: flex;
+   justify-content: center;
+  }
+  .service-banner img{
+   width: 80%;
+  }
+  .title h2 {
+	font-size: 32px;
+	padding-top: 52px;
+	text-align: center;
+}
+  /* service end */
+  /* deteils start */
+
+  .deteils .title h2 {
+	width: auto;
+	
+}
+.deteils .box {
+	
+	padding-top: 40px;
+}
+  /* deteils end */
+  
+  /* customer start */
+  .customer-banner{
+   display: flex;
+   justify-content: center;
+
+  }
+  .customer-banner img{
+   width: 80%;
+   
+  }
+  .customer p {
+	
+	
+	width: auto;
+}
+.customer .slider {
+	display: block;
+	
+}
+  
+  /* customer end */
+  
+    
+}
+@media (min-width:768px) and (max-width:991.99px){
+   .navbar-brand img{
+      width: 70%;
+   }
+
+    /* Nvber start */
+    .navbar-collapse{
+      background: purple;
+      border-radius: 10px;
+      padding: 20px 0px;
+      margin: 30px 0px;
+  }
+  .nav-item{
+      display: flex;
+      justify-content: center;
+      padding: 6px 0px;
+  }
+  .nav-link{
+      color: white;
+      font-size: 14px;
+  }
+  .nav-link:hover{
+      color: white;
+  }
+  .navber-button{
+      text-align: center;
+  }
+  /* Nvber end */
+  /* banner start */
+  .banner {
+     
+      padding: 101px 0px;
+  }
+  .banner h1 {
+	font-size: 40px;
+}
+  .banner p {
+      font-size: 14px;
+      
+  }
+  .common-button a {
+      padding: 10px 18px;
+      
+  }
+  .bannerImage{
+   padding-top: 60px;
+   display: flex;
+   justify-content: center;
+  }
+  .bannerImage img{
+  width: 70%;
+  }
+  /* banner end */
+
+
+
+
+
+
+  /* clien start */
+  .client{
+   padding-top: 40px;
+  }
+  .title h2 {
+	font-size: 32px;
+}
+  .title p {
+	padding: 0px 10px;
+}
+.client .box{
+   padding: 0;
+}
+
+.client .box img{
+   width: 90%;
+}
+  /* clien end */
+
+
+
+  /* comminity start */
+  .commountiy {
+	padding: 0;
+}
+
+.commountiy .title h2 {
+	width: auto;
+   margin: 0px 10px;
+   padding-bottom: 10px;
+}
+.commountiy .card .card-title {
+	font-size: 24px;
+
+}
+  /* comminity end */
+  /* service start */
+  .service-banner{
+   display: flex;
+   justify-content: center;
+  }
+  .service-banner img{
+   width: 80%;
+  }
+  .title h2 {
+	font-size: 32px;
+	padding-top: 52px;
+	text-align: center;
+}
+  /* service end */
+  /* deteils start */
+
+  .deteils .title h2 {
+	width: auto;
+	
+}
+.deteils .box {
+	
+	padding-top: 40px;
+}
+  /* deteils end */
+  
+  /* customer start */
+  .customer-banner{
+   display: flex;
+   justify-content: center;
+
+  }
+  .customer-banner img{
+   width: 80%;
+   
+  }
+  .customer p {
+	
+	
+	width: auto;
+}
+.customer .slider {
+	display: block;
+	
+}
+  
+  /* customer end */
+  
     
 }
